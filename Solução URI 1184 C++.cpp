@@ -22,7 +22,7 @@ int main(){
     }
 
     for(i=0;i<12;i++){
-        for(j=i+1;j<12;j++){
+        for(j=0;j<i;j++){
             soma+=matriz[i][j];
         }
     }
